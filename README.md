@@ -75,9 +75,12 @@ Endpoint: /upload
 Method: POST
 
 Body:
+
 	description: Description of the post
-	img: Image URL of the post
-	date: Post posted date
+
+ 	img: Image URL of the post
+	
+ 	date: Post posted date
  
 Description: Store a new post in the database.
 
@@ -102,9 +105,14 @@ Endpoint: /register
 Method: POST
 
 Body:
+
 	fullname : Fullname of the new user
-	username: Username of the new user
-	email: Email of the new user
-	password: Password of the new user (hashed)
+
+ 	username: Username of the new user
+	
+ 	email: Email of the new user
+	
+ 	password: Password of the new user (hashed)
+
 Description: Register a new user in the system.
 
