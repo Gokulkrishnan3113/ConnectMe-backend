@@ -46,15 +46,15 @@ githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-fronte
 
 # Microservices/Apis
 
-1)Search for a User
-
-Endpoint: /search/:username
-
-Method: GET
-
-Parameters: username (query parameter)
-
-Description: Retrieve user information based on username.
+	1)Search for a User
+	
+	Endpoint: /search/:username
+	
+	Method: GET
+	
+	Parameters: username (query parameter)
+	
+	Description: Retrieve user information based on username.
 
 2)Display All Posts
 
