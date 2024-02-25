@@ -1,5 +1,11 @@
 # ConnectMe-backend
 
+
+# For reference
+
+githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-frontend.git
+
+
 # Database queries/schema
 
 
