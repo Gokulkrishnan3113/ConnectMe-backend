@@ -2,7 +2,9 @@
 
 # DATA BASE QUERY/SCHEMA
 
-create table users(
+
+	create table users(
+
 	id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
 
  	username varchar(45) NOT NULL,
@@ -12,9 +14,11 @@ create table users(
  	password varchar(100) NOT NULL,
 	
  	img varchar(255) 
-);
+	
+ 	);
 
-create table posts(
+
+	create table posts(
 	
  	id int NOT NULL  PRIMARY KEY AUTO_INCREMENT,
 	
@@ -31,4 +35,5 @@ create table posts(
  	ON DELETE CASCADE
 	
  	ON UPDATE CASCADE
-);
+	
+ 	);
