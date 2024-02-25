@@ -68,7 +68,7 @@ Parameters: username (in URL path)
 
 Description: Retrieve all posts of a specific user.
 
-3)Store Posts
+4)Store Posts
 
 Endpoint: /upload
 
@@ -81,7 +81,7 @@ Body:
  
 Description: Store a new post in the database.
 
-4)User Login
+5)User Login
 
 Endpoint: /login
 
@@ -92,7 +92,7 @@ Body:
 	password: Password of the user
 	Description: Authenticate user credentials and generate a token for accessing protected resources.
 
-5)User Registration
+6)User Registration
 
 Endpoint: /register
 
