@@ -1,6 +1,6 @@
 # ConnectMe-backend
 
-# DATA BASE QUERY/SCHEMA
+# Database queries/schema
 
 
 	create table users(
@@ -38,7 +38,7 @@
 	
  	);
 
-# microservices/apis
+# Microservices/Apis
 
 1)Search for a User
 
