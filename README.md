@@ -56,23 +56,25 @@ githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-fronte
 	
 	Description: Retrieve user information based on username.
 
-2)Display All Posts
+-----------------------------------------------------------------------------
 
-Endpoint: /posts
-
-Method: GET
-
-Description: Retrieve all posts from the database.
-
-3)Display Posts of Specific User
-
-Endpoint: /profile/:username
-
-Method: GET
-
-Parameters: username (in URL path)
-
-Description: Retrieve all posts of a specific user.
+	2)Display All Posts
+	
+	Endpoint: /posts
+	
+	Method: GET
+	
+	Description: Retrieve all posts from the database.
+	
+	3)Display Posts of Specific User
+	
+	Endpoint: /profile/:username
+	
+	Method: GET
+	
+	Parameters: username (in URL path)
+	
+	Description: Retrieve all posts of a specific user.
 
 4)Store Posts
 
