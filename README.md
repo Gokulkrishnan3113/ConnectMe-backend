@@ -3,7 +3,6 @@
 # DATA BASE QUERY/SCHEMA
 
 create table users(
-
 	id int PRIMARY KEY AUTO_INCREMENT NOT NULL,
 
  	username varchar(45) NOT NULL,
