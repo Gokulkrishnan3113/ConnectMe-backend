@@ -56,7 +56,7 @@ githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-fronte
 	
 	Description: Retrieve user information based on username.
 
------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------
 
 	2)Display All Posts
 	
@@ -65,6 +65,8 @@ githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-fronte
 	Method: GET
 	
 	Description: Retrieve all posts from the database.
+
+ ------------------------------------------------------------------------------------------------------------------
 	
 	3)Display Posts of Specific User
 	
@@ -76,51 +78,57 @@ githun repo for frontend : https://github.com/Gokulkrishnan3113/ConnectMe-fronte
 	
 	Description: Retrieve all posts of a specific user.
 
-4)Store Posts
-
-Endpoint: /upload
-
-Method: POST
-
-Body:
-
-	description: Description of the post
-
- 	img: Image URL of the post
+ ------------------------------------------------------------------------------------------------------------------
 	
- 	date: Post posted date
- 
-Description: Store a new post in the database.
-
-5)User Login
-
-Endpoint: /login
-
-Method: POST
-
-Body:
-
-	username: Username of the user
+	4)Store Posts
 	
- 	password: Password of the user
+	Endpoint: /upload
 	
- 	Description: Authenticate user credentials and generate a token for accessing protected resources.
-
-6)User Registration
-
-Endpoint: /register
-
-Method: POST
-
-Body:
-
-	fullname : Fullname of the new user
-
- 	username: Username of the new user
+	Method: POST
 	
- 	email: Email of the new user
+	Body:
 	
- 	password: Password of the new user (hashed)
+		description: Description of the post
+	
+	 	img: Image URL of the post
+		
+	 	date: Post posted date
+	 
+	Description: Store a new post in the database.
+ ------------------------------------------------------------------------------------------------------------------
+	
+	5)User Login
+	
+	Endpoint: /login
+	
+	Method: POST
+	
+	Body:
+	
+		username: Username of the user
+		
+	 	password: Password of the user
+		
+	 	Description: Authenticate user credentials and generate a token for accessing protected resources.
 
-Description: Register a new user in the system.
+  ------------------------------------------------------------------------------------------------------------------
 
+	6)User Registration
+	
+	Endpoint: /register
+	
+	Method: POST
+	
+	Body:
+	
+		fullname : Fullname of the new user
+	
+	 	username: Username of the new user
+		
+	 	email: Email of the new user
+		
+	 	password: Password of the new user (hashed)
+	
+	Description: Register a new user in the system.
+
+------------------------------------------------------------------------------------------------------------------
