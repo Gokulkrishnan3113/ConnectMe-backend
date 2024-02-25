@@ -88,9 +88,12 @@ Endpoint: /login
 Method: POST
 
 Body:
+
 	username: Username of the user
-	password: Password of the user
-	Description: Authenticate user credentials and generate a token for accessing protected resources.
+	
+ 	password: Password of the user
+	
+ 	Description: Authenticate user credentials and generate a token for accessing protected resources.
 
 6)User Registration
 
